@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekomendasi Produk Pilihan Shopee</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; color: #333; line-height: 1.6; }
+        
+        header { background: #ee4d2d; color: white; text-align: center; padding: 40px 20px; }
+        header h1 { font-size: 2rem; margin-bottom: 8px; }
+        header p { font-size: 1rem; opacity: 0.95; }
+        
+        .container { max-width: 900px; margin: 30px auto; padding: 0 15px; }
+        .section-title { text-align: center; font-size: 1.4rem; color: #ee4d2d; margin-bottom: 25px; font-weight: bold; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center; display: flex; flex-direction: column; justify-content: space-between; }
+        
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 15px; font-size: 0.75rem; font-weight: bold; background-color: #ffebe8; color: #ee4d2d; margin-bottom: 12px; align-self: center; }
+        .card h3 { font-size: 1.1rem; margin-bottom: 8px; color: #222; }
+        .card p { font-size: 0.88rem; color: #666; margin-bottom: 15px; }
+        .price { font-size: 1.15rem; font-weight: bold; color: #ee4d2d; margin-bottom: 15px; }
+        
+        .btn-shopee { display: block; width: 100%; padding: 12px 0; background-color: #ee4d2d; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 0.95rem; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Katalog Rekomendasi Shopee</h1>
+    <p>Kumpulan Produk Terbaik & Promo Pilihan Hari Ini</p>
+</header>
+
+<div class="container">
+    <div class="section-title">Produk Pilihan Hari Ini</div>
+    
+    <div class="grid">
+        <div class="card">
+            <div>
+                <span class="badge">Diskon Special</span>
+                <h3>Produk Rekomendasi Utama</h3>
+                <p>Produk pilihan dengan kualitas terbaik dan ulasan pembeli sangat memuaskan.</p>
+            </div>
+            <div>
+                <div class="price">Cek Harga Promo</div>
+                <a href="https://s.shopee.co.id/3B7zCbXtiS" target="_blank" class="btn-shopee">Beli Langsung di Shopee</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
